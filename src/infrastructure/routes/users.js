@@ -3,6 +3,7 @@ const router = express.Router()
 
 const users = 
 [
+    
 ]
 
 router.get('/', (req, res) => {
@@ -19,7 +20,7 @@ router.post('/new', (req, res) => {
     })
 
 router.param("id", (req, res, next, id) => {
-    req.user = users[--id]
+    req.user = users[id - 1]
     next()
 })
 
