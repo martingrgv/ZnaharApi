@@ -1,4 +1,4 @@
-# 🔑 ZnaharApi
+# 𓋹 ZnaharApi
 
 ## 🖋 Features
 
